@@ -52,6 +52,10 @@ endif
 # Don't export PS1 in /system/etc/mkshrc.
 PRODUCT_COPY_FILES += \
     vendor/du/prebuilt/common/etc/mkshrc:system/etc/mkshrc
+# Substratum Key
+PRODUCT_COPY_FILES += \
+    vendor/du/prebuilt/common/priv-app/SubstratumKey.apk:system/priv-app/SubstratumKey/SubstratumKey.apk
+
 
 # Backup tool
 PRODUCT_COPY_FILES += \
