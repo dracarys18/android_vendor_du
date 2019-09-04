@@ -3,7 +3,7 @@ PRODUCT_PACKAGES += \
     CustomDoze \
     WallpaperPicker \
     WeatherClient \
-    Updater
+    Longshot
 
 # Include librsjni explicitly to workaround GMS issue
 PRODUCT_PACKAGES += \
